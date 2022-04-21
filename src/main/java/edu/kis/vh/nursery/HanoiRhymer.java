@@ -8,6 +8,7 @@ public class HanoiRhymer extends DefaultCountingOutRhymer {
         return tot_rej;
     }
 
+    @Override
     public void countIn(int numb) {
         if (!callCheck() && numb > peekaboo())//tutaj
             tot_rej++;
