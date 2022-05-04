@@ -37,3 +37,4 @@ class RhymersDemo {
     }
 
 }
+//walidacja przeszłą pomyślnie.
